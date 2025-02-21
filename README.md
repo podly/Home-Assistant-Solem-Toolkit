@@ -14,7 +14,11 @@ Integrate Solem Watering Bluetooth Controllers (only tested in BL-IP) into your 
 
 This integration can be added as a custom repository in HACS and from there you can install it.
 
-When the integration is installed in HACS, you need to add it in Home Assistant: Settings → Devices & Services → Add Integration → Search for Solem Toolkit Integration.
+When the integration is installed in HACS, you need to add it in Home Assistant: Settings → Devices & Services → Add Integration → Search for Solem Toolkit Integration. Then put on configuration.yaml:
+
+```yaml
+solem_toolkit:
+```
 
 ## Services
 
