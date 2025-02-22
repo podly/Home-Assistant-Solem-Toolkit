@@ -9,6 +9,7 @@ Integrate Solem Watering Bluetooth Controllers (only tested in BL-IP) into your 
     - [Installation](#installation)
     - [Services](#services)
     - [FAQ](#faq)
+    - [Credits](#credits)
 
 ## Installation
 
@@ -38,3 +39,7 @@ There is no configuration, you only need to use the provided services. They are 
 ### Can I configure the MAC address of the controller?
 
 No, as this is 'just' a toolkit you need to provide it to every service. I plan to have a different Integration that will use this toolkit that will take care of that.
+
+## Credits
+
+A big thank you to [pcman75](https://github.com/pcman75) for doing a [reverse engineering](https://github.com/pcman75/solem-blip-reverse-engineering) on Solem controllers which helped me a lot. 
