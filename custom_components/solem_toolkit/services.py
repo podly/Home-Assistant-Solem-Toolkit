@@ -7,7 +7,7 @@ from bleak import BleakClient
 from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
-characteristic_uuid = '108b0002-eab5-bc09-d0ea-0b8f467ce8ee'
+characteristic_uuid = '2fc20002-a5eb-4a8f-8ee2-7075ffce4f5f'
 
 async def async_list_characteristics(call: ServiceCall):
     device_mac = call.data.get("device_mac")
